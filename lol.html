@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji</title>
+    <style>
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        .eye {
+            display: inline-flex;
+            /* align-content: center; */
+            content: "";
+            /* margin-top: 50px; */
+            margin: 50px 10px 20px 10px;
+            /* display: inline-block; */
+            height: 150px;
+            width: 100px;
+            /* border-radius: 100% 100% 20% 20%; */
+            /* position: absolute; */
+            position: relative;
+            /* margin: 70px; */
+            border-radius: 100%;
+            background-color: white;
+        }
+        body {
+            background-color: yellow;
+        }
+
+        .eyeball {
+            width: 50px;
+            height: 75px;
+            border-radius: 100%;
+            margin: 100% 50% 50% 50%;
+            background-color: black;
+        } 
+
+        /* #left {
+            float: left;
+            justify-content: left;
+            
+        }
+
+        #right {
+            float: right;
+            justify-content: right;
+        } */
+        
+        
+
+        #inner-mouth{
+            overflow: hidden;
+            height: 60px;
+            width: 200px;
+            border-radius: 100%;
+            margin-top: 5px;
+            /* background-color: yellow; */
+            background-color: black;
+        }
+
+        #teeth{
+            border-radius: 5px;
+            width: 150px;
+            height: 30px;
+            background-color: white;
+            /* background: linear-gradient(silver, white); */
+        }
+
+        #toung {
+            align-self: right;
+            margin-top: -20px;
+            height: 70px;
+            /* margin-left: 150px; */
+            width: 50px;
+            display: inherit;
+            /* transform: rotate(-45deg); */
+            border-radius: 0 0 100% 100%;
+            background: linear-gradient(black, palevioletred);
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="eye" id="left">
+        <center><div class="eyeball"></div></center>
+    </div>
+    <div class="eye" id="right">
+        <center><div class="eyeball"></div></center>
+    </div>
+    <center>
+        <!-- <div id="mouth"> -->
+            <div id="inner-mouth">
+                <div id="teeth"></div>
+            </div>
+            <div id="toung"></div>
+        <!-- </div> -->
+    </center>
+</center>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+    #mouth {
+            height: 50px;
+            width: 150px;
+            /* border-radius:0 0 100% 100%; */
+            /* overflow: hidden; */
+            border-radius: 50%;
+            /* background-color: teal; */
+            background-color: yellow;
+        }
+ -->
