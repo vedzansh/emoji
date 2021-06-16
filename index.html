@@ -63,6 +63,16 @@
             background-color: black;
         }
 
+        #upper-mouth{
+            transform: translateY(-132px);
+        }
+
+        #mouth{
+            margin: 0 auto;
+        }
+
+      
+
         #teeth{
             border-radius: 5px;
             width: 150px;
@@ -92,14 +102,20 @@
     <div class="eye" id="right">
         <center><div class="eyeball"></div></center>
     </div>
-    <center>
+    <div id="mouth">
+        
+    
         <!-- <div id="mouth"> -->
             <div id="inner-mouth">
+                
                 <!-- <div id="teeth"></div> -->
             </div>
             <div id="toung"></div>
+            <svg height="150" width="500" id="upper-mouth">
+                  <ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow" />
+                </svg>
         <!-- </div> -->
-    </center>
+    </div>
 </center>
 </body>
 </html>
